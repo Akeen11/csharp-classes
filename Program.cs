@@ -23,7 +23,7 @@ namespace classes {
             Name = name;
             FoundedOn = foundedOn;
         }
-        public void ListEmployees() {
+        public void ListBros() {
             foreach(Bro bro in ourHeroes) {
                 Console.WriteLine($"{bro.FirstName} {bro.LastName} has been with the {Name} with the quirk of {bro.Title} since {bro.StartDate}.");
             }
@@ -61,7 +61,7 @@ namespace classes {
 
             superBros.ourHeroes = bro;
 
-            superBros.ListEmployees();
+            superBros.ListBros();
             
 
             /*
